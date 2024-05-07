@@ -1,0 +1,154 @@
+.island-moments-regular {
+    font-family: "Island Moments", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .inknut-antiqua-light {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+body {
+    background-color: #5C5265;
+    color: #d9d9d9;
+}
+
+h1 {
+    font-family: "Island Moments", cursive;
+    font-size: 96px;
+    font-weight: 100;
+}
+
+header {
+    text-align: center;
+}
+/*
+h2 {
+    font-family: "Island Moments", cursive;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#firstSec {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 600px;
+}
+
+h3 {
+    font-family: "Inknut Antiqua", serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+*/
+
+#firstSec {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 600px;
+    justify-content: space-evenly;
+}
+
+#firstItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Island Moments", cursive;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: "Inknut Antiqua", serif;
+    font-size: 14px;
+    font-weight: 100;
+    width: 300px;
+    text-align: justify;
+}
+
+
+h4 {
+    font-family: "Inknut Antiqua", serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+#link {
+    text-align: center;
+}
+
+a {
+    color: #d9d9d9;
+    text-decoration: none;
+}
+
+hr {
+    width: 80%;
+}
+
+#characters {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+  }
+  
+  #charLeft {
+    flex: 1; /* A div charLeft ocupará todo o espaço disponível */
+    width: 200px;
+  }
+  
+  #charRight {
+    flex: 1; /* A div charRight ocupará todo o espaço disponível */
+    width: 400px;
+  }
+  
+  /*
+  #charLeft button img {
+    border-radius: 360px;
+    width: 85px;
+    height: 85px;
+    box-sizing: border-box;
+  }*/
+  
+  button {
+    background-color: #5C5265;
+    margin: 20px;
+    border: none;
+    border-radius: 360px;
+    width: 85px;
+    height: 85px;
+    box-sizing: border-box;
+  }
+
+#charImg {
+    border-radius: 360px;
+    width: 105px;
+    height: 105px;
+}
+
+
+h5 {
+    font-family: "Island Moments", cursive;
+    font-size: 64px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+h6 {
+    font-family: "Inknut Antiqua", serif;
+    font-size: 14px;
+    font-weight: 100;
+    width: 500px;
+    text-align: justify;
+}
+  
